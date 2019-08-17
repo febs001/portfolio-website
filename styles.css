@@ -1,0 +1,223 @@
+{
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY!! */
+h1{
+font-weight:300;
+font-size: 2.5rem;
+}
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+header{
+    margin-top: 1em;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+
+nav li{
+    margin:1em;
+    display: inline-block;
+   
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 0;
+    padding: 15px;
+    color: white;
+}
+
+.intro{
+    background-image: url(../Imagecss.jpeg);
+    background-size:cover;
+    padding:20em 0; 
+    text-align:center;
+    color:whitesmoke;
+    
+}
+.home-about{
+    width:100%;
+    padding-top: 50px;
+    background-color: whitesmoke;
+    height:700px;
+    
+    
+}
+.home-about:after{
+    content:'';
+    display: block;
+    clear: both
+}
+.home-about .col-left, .about-me .col-right{
+    width:50%;
+    float:left;
+}
+
+.home-about .col-left img{
+    max-width: 100%;
+}
+.home-about .col-left{
+    
+    
+}
+
+.home-about .col-right{
+    text-align: center;
+    margin-right:10%;
+    margin-top:3%;
+    margin-left: 10%;
+    
+   
+}
+.home-about a{
+background-color: #505E72;
+padding: 10px 25px;
+text-decoration: none; 
+color:whitesmoke;
+border-radius: 20px;
+font-size: 20px;
+display: inline-block;
+}
+.home-about h1{
+    text-align: center;   
+    position: relative;
+}
+
+.home-about h1:after{
+    content:'';
+    position:absolute;
+    width:80px;
+    height: 2px;
+    margin-left: -40px;
+    left:50%;
+    bottom:0px;
+    background-color: #505E72;
+
+}
+
+.profile{
+ width: 55%;
+ box-shadow: 15px 15px 5px grey;
+
+}
+
+.resume{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #B3B5BB;
+    padding-top: 0x;
+    padding-bottom: 3%;
+    color: #51504A;
+}
+.resume h1{
+    padding-top:2%;
+    text-align: center;
+    position:relative
+}
+.resume h1:after{
+    content: '';
+    position: absolute;
+    width:80px;
+    height:2px;
+    margin-left: -40px;
+    left:50%;
+    bottom:0px;
+    background-color: #505E72;
+}
+.resume .resume-info{
+    text-align: left;
+    font-size: 21px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.resume .resume-info h3{
+    position: relative;
+    
+}
+.resume .resume-info h3:after{
+    content: '';
+    position: absolute;
+    width:80px;
+    height:8px;
+    margin-bottom: -11px;
+    margin-left: 0px;
+    left:0%;
+    bottom:0px;
+    background-color:#46647A;
+}
+.resume .resume-info p2{
+    
+    
+}
+
+.portfolio{
+    background-color: #F3F3EB;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 1px;
+    margin-left: 12%;
+    margin-bottom: 2%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.portfolio h1{
+  padding-top:2%;
+  text-align: center;
+  position:relative  
+}
+.portfolio h1:after{
+    content: '';
+    position: absolute;
+    width:80px;
+    height:2px;
+    margin-left: -40px;
+    left:50%;
+    bottom:0px;
+    background-color: #505E72;
+}
+.column{
+    box-shadow: 10px 10px 5px grey;
+}
+
+.footer {
+  position:relative;
+  width: 100%;
+  background-color: #AEBFBC;
+  color: #F3F3EB;
+   padding-bottom: 1%;
+  text-align: center;
+}
+.footer h1{
+    padding-top: 2%;
+}
+.footer h3{
+    color: #936863;
+    text-decoration: none;
+}
+
+b, strong{
+    color:#933C30;
+}
+a:hover { 
+  background-color: #936863;
+}
